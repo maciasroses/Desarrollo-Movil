@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24009AD628F05F100036AEFC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24009AD528F05F100036AEFC /* ImageViewController.swift */; };
 		246898C128E7588A00ECFD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898C028E7588A00ECFD32 /* AppDelegate.swift */; };
 		246898C328E7588A00ECFD32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898C228E7588A00ECFD32 /* SceneDelegate.swift */; };
 		246898C528E7588A00ECFD32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898C428E7588A00ECFD32 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24009AD528F05F100036AEFC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		246898BD28E7588A00ECFD32 /* MySecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246898C028E7588A00ECFD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246898C228E7588A00ECFD32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				246898CE28E7588B00ECFD32 /* LaunchScreen.storyboard */,
 				246898D128E7588B00ECFD32 /* Info.plist */,
 				246898C928E7588A00ECFD32 /* MySecondApp.xcdatamodeld */,
+				24009AD528F05F100036AEFC /* ImageViewController.swift */,
 			);
 			path = MySecondApp;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				246898C528E7588A00ECFD32 /* ViewController.swift in Sources */,
 				246898C128E7588A00ECFD32 /* AppDelegate.swift in Sources */,
+				24009AD628F05F100036AEFC /* ImageViewController.swift in Sources */,
 				246898C328E7588A00ECFD32 /* SceneDelegate.swift in Sources */,
 				246898CB28E7588A00ECFD32 /* MySecondApp.xcdatamodeld in Sources */,
 			);

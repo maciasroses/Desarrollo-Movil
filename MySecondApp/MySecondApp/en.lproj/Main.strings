@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "28W-Id-Qd5"; */
+"28W-Id-Qd5.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "28W-Id-Qd5"; */
+"28W-Id-Qd5.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "3L7-MJ-UlH"; */
+"3L7-MJ-UlH.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3L7-MJ-UlH"; */
+"3L7-MJ-UlH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D4j-GW-mVs"; */
+"D4j-GW-mVs.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Dividir"; ObjectID = "F7e-Gg-Nm8"; */
+"F7e-Gg-Nm8.configuration.title" = "Dividir";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "F7e-Gg-Nm8"; */
+"F7e-Gg-Nm8.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Dividendo"; ObjectID = "XZR-Oe-aQ0"; */
+"XZR-Oe-aQ0.placeholder" = "Dividendo";
+
+/* Class = "UIButton"; configuration.title = "Alert"; ObjectID = "YDa-tr-XJ8"; */
+"YDa-tr-XJ8.configuration.title" = "Alert";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YDa-tr-XJ8"; */
+"YDa-tr-XJ8.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Divisor"; ObjectID = "nGZ-FC-Jwf"; */
+"nGZ-FC-Jwf.placeholder" = "Divisor";
