@@ -18,6 +18,8 @@
 		246898DB28E7588C00ECFD32 /* MySecondAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898DA28E7588C00ECFD32 /* MySecondAppTests.swift */; };
 		246898E528E7588C00ECFD32 /* MySecondAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898E428E7588C00ECFD32 /* MySecondAppUITests.swift */; };
 		246898E728E7588C00ECFD32 /* MySecondAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898E628E7588C00ECFD32 /* MySecondAppUITestsLaunchTests.swift */; };
+		24FF4F1228F9945A006411A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FF4F1128F9945A006411A5 /* MainViewController.swift */; };
+		24FF4F1428F99706006411A5 /* BigBuckBunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24FF4F1328F99706006411A5 /* BigBuckBunny.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		246898E028E7588C00ECFD32 /* MySecondAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySecondAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		246898E428E7588C00ECFD32 /* MySecondAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondAppUITests.swift; sourceTree = "<group>"; };
 		246898E628E7588C00ECFD32 /* MySecondAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24FF4F1128F9945A006411A5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		24FF4F1328F99706006411A5 /* BigBuckBunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = BigBuckBunny.mp4; path = ../../../../../../../../../Downloads/BigBuckBunny.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		246898B428E7588A00ECFD32 = {
 			isa = PBXGroup;
 			children = (
+				24FF4F1328F99706006411A5 /* BigBuckBunny.mp4 */,
 				246898BF28E7588A00ECFD32 /* MySecondApp */,
 				246898D928E7588C00ECFD32 /* MySecondAppTests */,
 				246898E328E7588C00ECFD32 /* MySecondAppUITests */,
@@ -112,6 +117,7 @@
 				246898D128E7588B00ECFD32 /* Info.plist */,
 				246898C928E7588A00ECFD32 /* MySecondApp.xcdatamodeld */,
 				24009AD528F05F100036AEFC /* ImageViewController.swift */,
+				24FF4F1128F9945A006411A5 /* MainViewController.swift */,
 			);
 			path = MySecondApp;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FF4F1428F99706006411A5 /* BigBuckBunny.mp4 in Resources */,
 				246898D028E7588B00ECFD32 /* LaunchScreen.storyboard in Resources */,
 				246898CD28E7588B00ECFD32 /* Assets.xcassets in Resources */,
 				246898C828E7588A00ECFD32 /* Main.storyboard in Resources */,
@@ -267,6 +274,7 @@
 				246898C528E7588A00ECFD32 /* ViewController.swift in Sources */,
 				246898C128E7588A00ECFD32 /* AppDelegate.swift in Sources */,
 				24009AD628F05F100036AEFC /* ImageViewController.swift in Sources */,
+				24FF4F1228F9945A006411A5 /* MainViewController.swift in Sources */,
 				246898C328E7588A00ECFD32 /* SceneDelegate.swift in Sources */,
 				246898CB28E7588A00ECFD32 /* MySecondApp.xcdatamodeld in Sources */,
 			);
@@ -453,6 +461,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +490,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

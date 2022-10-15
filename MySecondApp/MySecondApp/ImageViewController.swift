@@ -12,5 +12,8 @@ class ImageViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBAction func backButt(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
 }
 

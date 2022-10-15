@@ -8,6 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func haciaImagen(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let imageViewController = storyboard.instantiateViewController(withIdentifier: "imageViewController")
+        imageViewController.modalPresentationStyle = .fullScreen
+        self.present(imageViewController, animated: false)
+    }
     
     @IBOutlet weak var numeroInferior: UITextField!
     @IBOutlet weak var numeroSuperior: UITextField!
